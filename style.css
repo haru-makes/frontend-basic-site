@@ -1,11 +1,11 @@
 :root {
-  --font-family-heading: "Anton", sans-serif;
-  --font-family-body: "Noto Sans JP", sans-serif;
+  --font-family-anton: "Anton", sans-serif;
+  --font-family-noto-sans-jp: "Noto Sans JP", sans-serif;
 
   --color-white: #fffefc;
   --color-black: #020911;
-  --color-accent-yellow: #f2e52e;
   --color-accent-red: #f20574;
+  --color-accent-yellow: #f2e52e;
   --color-background-black: #171525;
   --color-background-navy: #030427;
   --color-form-background-yellow: #fffab9;
