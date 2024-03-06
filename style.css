@@ -67,7 +67,7 @@ img {
 .hero {
   background-image: url(./img/hero.png);
   background-size: cover;
-  background-position: 10px;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
