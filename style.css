@@ -98,6 +98,7 @@ img {
   color: var(--color-accent-yellow);
   display: flex;
   flex-direction: column;
+  width: 400px;
   gap: 30px;
 }
 
