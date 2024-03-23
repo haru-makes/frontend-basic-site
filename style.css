@@ -170,6 +170,12 @@ img {
   margin: 0;
 }
 
+@media (max-width: 750px) {
+  .about-section-body br {
+    display: none;
+  }
+}
+
 .about-accent-red {
   color: var(--color-accent-red);
 }
