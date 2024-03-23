@@ -253,7 +253,7 @@ img {
   display: flex;
   min-height: 150px;
   text-decoration: none;
-  box-shadow: 4px 4px 0 var(--color-accent-red);
+  filter: drop-shadow(4px 4px 0 var(--color-accent-red));
   transition-duration: 0.3s;
 }
 
@@ -266,7 +266,7 @@ img {
 }
 
 .course-block:hover {
-  box-shadow: 12px 12px 2px var(--color-accent-red);
+  filter: drop-shadow(12px 12px 2px var(--color-accent-red));
 }
 
 .course-thumbnail {
@@ -342,7 +342,7 @@ img {
 
 .course-big-button {
   background-color: var(--color-accent-red);
-  box-shadow: 4px 4px 0 var(--color-accent-yellow);
+  filter: drop-shadow(4px 4px 0 var(--color-accent-yellow));
   height: 60px;
   display: flex;
   align-items: center;
@@ -364,7 +364,7 @@ img {
 
 .course-big-button:hover {
   background-color: var(--color-button-hover-red);
-  box-shadow: 12px 12px 2px var(--color-course-hover-yellow);
+  filter: drop-shadow(12px 12px 2px var(--color-course-hover-yellow));
 }
 
 .big-button-label {
