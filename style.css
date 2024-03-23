@@ -234,6 +234,10 @@ img {
   transition-duration: 0.3s;
 }
 
+.course-block:hover {
+  box-shadow: 12px 12px 2px var(--color-accent-red);
+}
+
 .course-thumbnail {
   width: 250px;
   display: flex;
@@ -272,6 +276,10 @@ img {
   transition-duration: 0.3s;
 }
 
+.course-block:hover .course-block-body {
+  background-color: var(--color-course-hover-yellow);
+}
+
 .course-block-description {
   color: var(--color-black);
   flex-grow: 1;
@@ -296,6 +304,11 @@ img {
   outline: none;
   align-self: stretch;
   transition: 0.3s;
+}
+
+.course-big-button:hover {
+  background-color: var(--color-button-hover-red);
+  box-shadow: 12px 12px 2px var(--color-course-hover-yellow);
 }
 
 .big-button-label {
