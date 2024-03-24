@@ -140,6 +140,12 @@ img {
   padding: 80px 0;
 }
 
+@media (max-width: 750px) {
+  .about {
+    padding: 40px 0;
+  }
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -147,6 +153,12 @@ img {
   max-width: 880px;
   padding: 0 40px;
   gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .about-container {
+    padding: 0 20px;
+  }
 }
 
 .about-section-head {
@@ -166,6 +178,7 @@ img {
 
 .about-body-and-image {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
