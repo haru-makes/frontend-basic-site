@@ -476,11 +476,16 @@ img {
   row-gap: 40px;
 }
 
+.application-input-containers {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
 .application-input-container {
   display: grid;
   grid-template-columns: 250px 1fr;
   width: 100%;
-  row-gap: 20px;
 }
 
 .application-label {
@@ -505,6 +510,11 @@ img {
 }
 
 @media (max-width: 750px) {
+  .application-input-containers {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
   .application-input-container {
     grid-template-columns: 1fr;
     row-gap: 5px;
