@@ -511,7 +511,6 @@ img {
 
 @media (max-width: 750px) {
   .application-input-containers {
-    grid-template-columns: 1fr;
     row-gap: 10px;
   }
 
