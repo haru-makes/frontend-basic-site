@@ -452,6 +452,7 @@ img {
   color: var(--color-black);
   font-family: var(--font-family-anton);
   font-size: 32px;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
